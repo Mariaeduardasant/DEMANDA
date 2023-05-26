@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    /*border: 1px solid black;*/
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #F672D9;    
+}
+.Home{
+margin-top: 20px;
+}
+.area-menu{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 1200px;
+}
+p,a{
+margin-left: 15px;
+text-align: center;
+text-decoration: none;
+font-size: 30px;
+gap: .5rem;
+color: #fff;
+}
+.botao{
+    margin-left: 190px;
+    margin-top: 40px ;
+    color: #fff;
+ 
+}
+a:hover{
+    background-color:  #f8bfec;
+}
+.logo{
+    margin-left: -990px;
+    margin-top: 30px;
+}
+.h2{
+    font-size: 40px;
+    color: #F672D9;
+   padding: 40px;
+   margin-left: -290px;
+   font-family: 'Gurajada';
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.141);
+}
+.hr{
+    width: 400px;
+    margin-left: -345px;
+    margin-top: -40px;
+}
+.text{
+    font-size: 40px ;
+    color: #6C6C6C;
+    margin-left: -1390px;
+     padding: 15px;
+}
+.img{
+    margin-left: 490px;
+    margin-top: -370px;
+}
+.barra{
+position: absolute;
+width: 1800px;
+height: 400px;
+margin-top: 1400px;
+background-color: #F672D9;
+}
+.imgB{
+border-radius: 100%;
+position: absolute;
+margin-left: 800px;
+margin-top: 50px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: center; 
+   margin-top: 265px;
+   color: #fff;
+}
+.btn1{
+    position: absolute;
+margin-left: 806px;
+margin-top: 15px;
+}
+.gestao{
+    position: absolute;
+   margin-left: -1300px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1890px;
+  font-weight: bold;
+  color: #F672D9;
+  font-size: 40px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.46);
+}
+
+.btn2{
+    background-color: #920e75;
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    margin-left: -1030px;
+    margin-top: 2000px;
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+    border-radius: 5px;
+}

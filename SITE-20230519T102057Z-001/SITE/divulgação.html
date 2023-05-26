@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        
+        body{
+          background-color: #eed4e8;
+        }
+       #picture__input {
+  display: none;
+}
+
+.picture {
+  position: fixed;
+  width: 35%;
+  aspect-ratio: 16/9;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  border: 2px dashed currentcolor;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: color 300ms ease-in-out, background 300ms ease-in-out;
+  outline: none;
+  overflow: hidden;
+  margin-left: 10%;
+}
+
+.picture:hover {
+  color: #777;
+  background: #ccc;
+}
+
+.picture:active {
+  border-color: turquoise;
+  color: turquoise;
+  background: #eee;
+}
+
+.picture:focus {
+  color: #777;
+  background: #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.picture__img {
+  max-width: 100%;
+}
+.h{
+  position: fixed;
+  margin-left: 50%;
+  font-size: 10px;
+}
+.text{
+  position: fixed;
+  margin-left: 50%;
+  font-size: 10px;
+  margin-top: 75px;
+}
+h1{
+position: fixed;
+margin-left: 50%;
+font-size: 15px;
+}
+.btn{
+  position: fixed;
+ margin-left: 5%;
+ margin-top: 15px;
+ background-color: #920e75;
+ border-style: none;
+ border-radius: 10px;
+ font-size: 10px;
+ width: 90px;
+ color: #fff;
+}
+
+
+    </style>
+   <label class="picture" for="picture__input" tabIndex="0">
+    <span class="picture__image"></span>
+  </label>
+  
+  <input type="file" name="picture__input" id="picture__input">
+  <h1>DIVULGAÇÃO DO SEU PRODUTO:</h1>
+  <div class="text">
+<label for="medicamento"> PRODUTO:
+  <input type="text" name="PRODUTO"> <br>
+  <label for="DESCRIÇÃO"> DESCRIÇÃO DO PRODUTO:
+    <input type="text" name="DESCRIÇÃO DO PRODUTO"> <br>
+  </label>
+  <label for="VALOR"> VALOR:
+    <input type="text" name="VALOR"> <br>
+  </label>
+  <label for="CONTATO"> CONTATO:
+    <input type="text" name="CONTATO"> <br>
+  </label>
+  <button class="btn">ENVIAR</button>
+</div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
